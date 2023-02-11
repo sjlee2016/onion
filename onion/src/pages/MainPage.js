@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 const MainPage = props => {
     return (
         <>
-        <NavBar/>
       <main>
         <Container>
           <Row className="px-4 my-5"> 

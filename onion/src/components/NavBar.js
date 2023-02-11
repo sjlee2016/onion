@@ -11,8 +11,7 @@ const NavBar = props => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Buy</Nav.Link>
-              <Nav.Link href="#link">Sell</Nav.Link>
+              <Nav.Link href="#link">Community</Nav.Link>
                 
             </Nav> 
           <Form className="d-flex">
@@ -24,6 +23,8 @@ const NavBar = props => {
             />
             <Button variant="outline-success">Search</Button>
           </Form>
+          <Nav>
+          <Nav.Link href="#link">Sign In</Nav.Link></Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
