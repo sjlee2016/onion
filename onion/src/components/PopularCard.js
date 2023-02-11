@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import OnionImage from "./onion.jpg"
+import OnionImage from "../images/onion.jpg"
 import {Card, Button} from 'react-bootstrap';
 const PopularCard = props => {
     return (

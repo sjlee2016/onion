@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MainPage from './MainPage.js';
+import MainPage from './pages/MainPage.js';
 function App() {
   return (
     <MainPage/>

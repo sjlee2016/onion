@@ -1,6 +1,6 @@
 import React from 'react';
-import PopularCard from './PopularCard';
-import NavBar from './NavBar';
+import PopularCard from '../components/PopularCard';
+import NavBar from '../components/NavBar';
 import {Container,Image,Row,Col} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
@@ -17,7 +17,7 @@ const MainPage = props => {
               </Col>
           </Row>
           <Row className="px-4 my-5">
-              <h1 clasName="text-sm-start"> Popular Items </h1>
+              <h1 clasName="text-sm-start"> Browse Popular Items </h1>
               <Col><PopularCard/></Col>
               <Col><PopularCard/></Col>
               <Col><PopularCard/></Col>

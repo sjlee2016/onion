@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {Navbar,Form,Nav,Container,Button} from 'react-bootstrap';
 const NavBar = props => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home">Onion</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
