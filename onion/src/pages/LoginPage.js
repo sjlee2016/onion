@@ -19,6 +19,14 @@ const LoginPage = props => {
           <Form.Label>Password</Form.Label>
           <Form.Control className="w-50" type="password" placeholder="Password" />
         </Form.Group>
+        <div className="mt-3">
+                      <p className="mb-0  text-center">
+                        Do not have an account??{' '}
+                        <a href="{''}" className="text-primary fw-bold">
+                          Register a new account
+                        </a>
+                      </p>
+                    </div>
         <Button variant="success" type="submit">
           Login
         </Button>
